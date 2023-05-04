@@ -196,9 +196,150 @@ a {
   margin-right: 10px;
 }
 
+.container .left-sidebar .sidebar-activity {
+  background-color: #fff;
+  padding: 5px 25px;
+  margin: 12px 0px;
+}
+
+.container .left-sidebar .sidebar-activity h3 {
+  color: #777;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 20px 0px 10px;
+}
+
+.container .left-sidebar .sidebar-activity a {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #888;
+  margin: 3px 0px;
+}
+
+.container .left-sidebar .sidebar-activity a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.container .left-sidebar .sidebar-activity .discover-more-link {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+.container .left-sidebar .sidebar-activity .discover-more-link a {
+  color: #045be6;
+  display: inline-block;
+  margin-right: 10px 0px;
+}
+
 .container .right-sidebar {
   flex-basis: 25%;
   align-self: flex-start;
+}
+
+.container .right-sidebar .sidebar-news {
+  background-color: #fff;
+  padding: 10px 25px;
+}
+
+.container .right-sidebar .sidebar-news .info-icon {
+  width: 15px;
+  float: right;
+  margin-top: 15px;
+}
+
+.container .right-sidebar .sidebar-news h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0px 30px;
+}
+
+.container .right-sidebar .sidebar-news a {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.container .right-sidebar .sidebar-news span {
+  font-size: 12px;
+}
+
+.container .right-sidebar .sidebar-news .read-more-link {
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px 0px 10px;
+}
+
+.container .right-sidebar .sidebar-ad {
+  background-color: #fff;
+  padding: 15px 25px;
+  text-align: center;
+  margin: 12px 0px;
+  font-size: 12px;
+}
+
+.container .right-sidebar .sidebar-ad img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.container .right-sidebar .sidebar-ad small {
+  float: right;
+  font-weight: 500;
+}
+
+.container .right-sidebar .sidebar-ad p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.container .right-sidebar .sidebar-ad b {
+  display: block;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.container .right-sidebar .sidebar-ad a.ad-link {
+  display: inline-block;
+  border: 1px solid #045be6;
+  border-radius: 30px;
+  padding: 5px 15px;
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px auto 10px;
+}
+
+.container .right-sidebar .sidebar-useful-links {
+  padding: 15px 25px;
+  text-align: center;
+}
+
+.container .right-sidebar .sidebar-useful-links a {
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+}
+
+.container .right-sidebar .sidebar-useful-links .copyright-msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.container .right-sidebar .sidebar-useful-links .copyright-msg img {
+  width: 18px;
+  margin-right: 4px;
 }
 
 .container .main-content {
