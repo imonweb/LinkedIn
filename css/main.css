@@ -113,4 +113,95 @@ a {
   cursor: pointer;
   position: relative;
 }
+
+/* ====== Container ====== */
+.container {
+  padding: 20px 6%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container .left-sidebar {
+  flex-basis: 25%;
+  align-self: flex-start;
+}
+
+.container .left-sidebar .sidebar-profile-box {
+  background-color: #fff;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-info {
+  padding: 0px 25px;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-info img {
+  width: 90px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 4px;
+  margin-top: -45px;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-info h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-info h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-info ul {
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-info ul li {
+  width: 100%;
+  margin: 5px 0px;
+  font-size: 13px;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-info ul li span {
+  float: right;
+  color: #045be6;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-link {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-link a {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
+  font-size: 13px;
+  border-left: 1px solid #ccc;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-link a:first-child {
+  border-left: 0;
+}
+
+.container .left-sidebar .sidebar-profile-box .sidebar-profile-link a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.container .right-sidebar {
+  flex-basis: 25%;
+  align-self: flex-start;
+}
+
+.container .main-content {
+  flex-basis: 47%;
+}
 /*# sourceMappingURL=main.css.map */
