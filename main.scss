@@ -140,6 +140,8 @@ a {
   .left-sidebar {
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73px;
 
     .sidebar-profile-box {
       background-color: #fff;
@@ -254,6 +256,8 @@ a {
   .right-sidebar {
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73px;
 
     .sidebar-news {
       background-color: #fff;
@@ -533,5 +537,5 @@ a {
   } // main-content
 
 
-}
+} // container
  
