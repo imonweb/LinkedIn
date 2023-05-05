@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  line-height: 1.2rem;
 }
 
 body {
@@ -344,5 +346,127 @@ a {
 
 .container .main-content {
   flex-basis: 47%;
+}
+
+.container .main-content .create-post {
+  background-color: #fff;
+}
+
+.container .main-content .create-post .create-post-input {
+  padding: 20px 25px 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.container .main-content .create-post .create-post-input img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.container .main-content .create-post .create-post-input textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  resize: none;
+  background: transparent;
+  margin-top: 8px;
+}
+
+.container .main-content .create-post .create-post-input textarea::placeholder {
+  font-weight: 500;
+}
+
+.container .main-content .create-post .create-post-links {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container .main-content .create-post .create-post-links li {
+  list-style: none;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  flex-basis: 25%;
+  height: 40px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container .main-content .create-post .create-post-links li:last-child {
+  background-color: #045be6;
+  color: #fff;
+  border-top: 0;
+  background-repeat: 0;
+}
+
+.container .main-content .create-post .create-post-links li img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.container .main-content .sort-by {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.container .main-content .sort-by hr {
+  flex: 1;
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.container .main-content .sort-by p {
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.container .main-content .sort-by p span {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container .main-content .sort-by p span img {
+  width: 12px;
+  margin-left: 3px;
+}
+
+.container .main-content .post {
+  background-color: #fff;
+  padding: 20px 25px 5px;
+  margin: 5px 0px 15px;
+}
+
+.container .main-content .post .post-author {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.container .main-content .post .post-author img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.container .main-content .post .post-author h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.container .main-content .post .post-author small {
+  display: block;
+  margin-bottom: -2px;
+}
+
+.container .main-content .post p {
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=main.css.map */

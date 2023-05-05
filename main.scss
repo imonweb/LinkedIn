@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  line-height: 1.2rem;
 }
 
 body {
@@ -355,7 +357,130 @@ a {
 
   .main-content {
     flex-basis: 47%;
-  }
+
+    .create-post {
+      background-color: #fff;
+
+      .create-post-input {
+        padding: 20px 25px 10px;
+        display: flex;
+        align-items: flex-start;
+
+        img {
+          width: 35px;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+
+        textarea {
+          width: 100%;
+          border: 0;
+          outline: 0;
+          resize: none;
+          background: transparent;
+          margin-top: 8px;
+
+          &::placeholder {
+            font-weight: 500;
+          }
+        }
+      } // create-post-input
+
+      .create-post-links {
+        display: flex;
+        align-items: flex-start;
+    
+
+        li {
+          list-style: none;
+          border-top: 1px solid #ccc;
+          border-right: 1px solid #ccc;
+          flex-basis: 25%;
+          height: 40px;
+          font-size: 13px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+
+          &:last-child {
+            background-color: #045be6;
+            color: #fff;
+            border-top: 0;
+            background-repeat: 0;
+          }
+
+          img {
+            width: 15px;
+            margin-right: 5px;
+          }
+        }
+      } // create-post-links
+    } // create-post
+
+    .sort-by {
+      display: flex;
+      align-items: center;
+      margin: 10px 0px;
+
+      hr {
+        flex: 1;
+        border: 0;
+        height: 1px;
+        background-color: #ccc;
+      }
+      p {
+        font-size: 13px;
+        padding-left: 5px;
+        span {
+          font-weight: 600;
+          cursor: pointer;
+
+          img {
+            width: 12px;
+            margin-left: 3px;
+          }
+        }
+      }
+    } // sort-by
+
+    .post {
+      background-color: #fff;
+      padding: 20px 25px 5px;
+      margin: 5px 0px 15px;
+
+      .post-author {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+
+        img {
+          width: 35px;
+          border-radius: 50%;
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+
+        h1 {
+          font-size: 18px;
+          font-weight: 600;color: #333;
+        }
+        small {
+          display: block;
+          margin-bottom: -2px;
+        }
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+
+      .post-stat {
+        
+      }
+    } // post
+  } // main-content
 
 
 }
