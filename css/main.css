@@ -116,6 +116,75 @@ a {
   position: relative;
 }
 
+.navbar .profile-menu-wrap {
+  position: absolute;
+  top: 100%;
+  right: 5%;
+  width: 320px;
+  /*  hide the menu */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.navbar .profile-menu-wrap.open-menu {
+  max-height: 400px;
+}
+
+.navbar .profile-menu-wrap .profile-menu {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+}
+
+.navbar .profile-menu-wrap .profile-menu .user-info {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .profile-menu-wrap .profile-menu .user-info img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.navbar .profile-menu-wrap .profile-menu .user-info h3 {
+  font-weight: 500;
+  margin-bottom: -2px;
+}
+
+.navbar .profile-menu-wrap .profile-menu .user-info a {
+  color: #c9dbf8;
+  font-size: 13px;
+}
+
+.navbar .profile-menu-wrap .profile-menu hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  margin: 15px 0px 10px;
+}
+
+.navbar .profile-menu-wrap .profile-menu .profile-menu-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 12px 0px;
+  font-size: 14px;
+}
+
+.navbar .profile-menu-wrap .profile-menu .profile-menu-link p {
+  width: 100%;
+}
+
+.navbar .profile-menu-wrap .profile-menu .profile-menu-link img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
 /* ====== Container ====== */
 .container {
   padding: 20px 6%;
