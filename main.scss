@@ -476,9 +476,59 @@ a {
         margin-bottom: 15px;
       }
 
-      .post-stat {
-        
-      }
+      .post-stats {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 12px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 6px;
+
+        div {
+          display: flex;
+          align-items: center;
+
+          .liked-users {
+            margin-left: 10px;
+          }
+        }
+
+        img {
+          width: 15px;
+          margin-right: -5px;
+        }
+      } // post-stats
+      .post-activity {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0px;
+        font-size: 14px;
+        font-weight: 500;
+
+        div {
+          display: flex;
+          align-items: center;
+
+          .post-activity-user-icon {
+            width: 22px;
+            border-radius: 50%;
+          }
+
+          .post-activity-arrow-icon {
+            width: 12px;
+            margin-left: 5px;
+          }
+        }
+        .post-activity-link {
+
+          img {
+            width: 18px;
+            margin-right: 8px;
+          }
+        } // post-activity-link
+      } // post-activity
     } // post
   } // main-content
 

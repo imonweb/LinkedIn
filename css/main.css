@@ -469,4 +469,57 @@ a {
   font-size: 14px;
   margin-bottom: 15px;
 }
+
+.container .main-content .post .post-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+}
+
+.container .main-content .post .post-stats div {
+  display: flex;
+  align-items: center;
+}
+
+.container .main-content .post .post-stats div .liked-users {
+  margin-left: 10px;
+}
+
+.container .main-content .post .post-stats img {
+  width: 15px;
+  margin-right: -5px;
+}
+
+.container .main-content .post .post-activity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container .main-content .post .post-activity div {
+  display: flex;
+  align-items: center;
+}
+
+.container .main-content .post .post-activity div .post-activity-user-icon {
+  width: 22px;
+  border-radius: 50%;
+}
+
+.container .main-content .post .post-activity div .post-activity-arrow-icon {
+  width: 12px;
+  margin-left: 5px;
+}
+
+.container .main-content .post .post-activity .post-activity-link img {
+  width: 18px;
+  margin-right: 8px;
+}
 /*# sourceMappingURL=main.css.map */
